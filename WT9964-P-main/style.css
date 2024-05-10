@@ -3,10 +3,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#tei-mobil {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .navbarimg {
     width: 80px;
-    /* Genişlik */
     height: auto;
 }
 
@@ -35,7 +37,7 @@
 
 
 .btn-primary {
-    background-color: chocolate;
+    background-color: rgb(210, 30, 30);
 }
 
 .logoboyutu {
@@ -49,11 +51,8 @@
     height: 600px;
     background-image: url('/images/ofisçalışanı.png');
     background-size: cover;
-    /* Resmin konteyner boyutlarına sığması için */
     background-position: center;
-    /* Resmi ortalamak için */
     background-repeat: no-repeat;
-    /* Resmin tekrarlanmaması için */
 }
 
 .overlay {
@@ -74,30 +73,29 @@
 }
 
 .bg-white {
-    background: linear-gradient(146deg, rgba(34, 193, 195, 1) 0%, rgba(206, 253, 45, 1) 100%);
+    background: linear-gradient(146deg, #8953dc 0%, #328cfa 100%);
 }
 
 
 .bg-danger {
-    background: linear-gradient(146deg, rgba(34, 193, 195, 1) 0%, rgba(206, 253, 45, 1) 100%);
+    background: linear-gradient(146deg, #8953dc 0%, #328cfa 100%);
 }
 
 
 .bg-warning {
-    background: linear-gradient(to right, green, indigo, violet);
+    background: linear-gradient(to right, #ba0000, orange, #d0d000);
 }
 
 .btn-secondary {
-    background: linear-gradient(to right, violet, indigo, green);
+    background: linear-gradient(to right, #d0d000, orange, #ba0000);
 }
 
 .text-black {
 
-    color: darkslategrey !important;
+    color: #442a6a !important;
 }
 
 .resim {
-    /* Resimlerin genişliği, içinde bulundukları divin genişliğine eşit olacak */
     height: 400px;
     position: relative;
 }
